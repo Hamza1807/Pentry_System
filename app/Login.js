@@ -71,8 +71,13 @@ export default function Login({ onLogin, switchToSignup }) {
         >
           Login
         </Button>
-        <Link component="button" variant="body2" onClick={switchToSignup} sx={{ textDecoration: 'none', color: '#ff5722', '&:hover': { color: '#e64a19' } }}>
-          Don&apos;t have an account? Sign up
+        <Link
+          component="button"
+          variant="body2"
+          onClick={switchToSignup}
+          sx={{ textDecoration: 'none', color: '#ff5722', '&:hover': { color: '#e64a19' } }}
+        >
+          Don't have an account? Sign up
         </Link>
       </Paper>
     </Box>
